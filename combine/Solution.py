@@ -9,6 +9,8 @@ class Solution:
     使用组合的公式：C(n, k) = C(n-1, k) + C(n-1, k - 1)
     """
     def combine(self, n: int, k: int) -> List[List[int]]:
+        if k > n:
+            return [[]]
         if k == 1:
             return [[i] for i in range(1, n + 1)]
         elif k == n:
