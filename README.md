@@ -7,3 +7,10 @@ LeetCode题库学习
 说明：解集不能包含重复的子集。
 
 [subsets](subsets)
+
+## 全排列
+
+给定一个没有重复数字的序列，返回其所有可能的全排列。
+
+[permute](permute)
+
