@@ -26,3 +26,14 @@ LeetCode题库学习
 
 [generateParenthesis](generateParenthesis)
 
+## 只出现一次的数字
+
+给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
+
+[singleNumber](singleNumber)
+
+## 多数元素
+
+给定一个大小为 n 的数组，找到其中的多数元素。多数元素是指在数组中出现次数大于 ⌊ n/2 ⌋ 的元素。
+
+[majorityElement](majorityElement)
