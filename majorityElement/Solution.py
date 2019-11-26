@@ -4,6 +4,8 @@
 你可以假设数组是非空的，并且给定的数组总是存在多数元素。
 """
 
+from typing import List
+
 
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
@@ -19,4 +21,3 @@ class Solution:
                 count -= 1
 
         return ret
-    
